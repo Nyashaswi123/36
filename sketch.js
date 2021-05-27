@@ -12,7 +12,7 @@ dog1 = loadImage("images/dogImg1.png");
 }
 
 function setup() {
-	createCanvas(1000, 400);
+	createCanvas(900, 300);
   database=firebase.database();
 
   dog = createSprite(800,200,150,150)
